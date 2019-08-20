@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <androidx.appcompat.widget.AppCompatTextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Payment Info."
+     android:textStyle="bold"
+     android:textColor="@android:color/black"
+     android:textSize="21sp"
+     android:gravity="center_vertical"
+     android:paddingStart="10dip"
+     android:layout_marginTop="10dip"
+     android:layout_marginEnd="5dip"
+     android:layout_marginStart="5dip"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginStart="5dip"
+        android:paddingStart="10dip"
+        android:text="Cardholder Name"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dip"
+        android:layout_marginTop="10dip"
+        app:cardElevation="5dip"
+        android:layout_marginStart="10dip"
+        android:layout_marginEnd="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rideula Zaman"
+                android:textSize="17sp"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:paddingStart="5dip" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginStart="5dip"
+        android:paddingStart="10dip"
+        android:text="Card Number"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dip"
+        android:layout_marginTop="10dip"
+        app:cardElevation="5dip"
+        android:layout_marginStart="10dip"
+        android:layout_marginEnd="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4599 7568 6354 4542"
+                android:textSize="17sp"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:paddingStart="5dip" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginStart="5dip"
+        android:paddingStart="10dip"
+        android:text="Expire on"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:paddingStart="5dip"
+        android:paddingEnd="5dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="mm"
+            android:gravity="center"
+            android:padding="10dip"
+            android:textSize="17sp"
+            android:background="@drawable/orange_bg"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="yyyy"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:padding="10dip"
+            android:background="@drawable/orange_bg"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginStart="5dip"
+        android:paddingStart="10dip"
+        android:text="Expire on"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dip"
+        android:layout_marginTop="10dip"
+        app:cardElevation="5dip"
+        android:layout_marginStart="10dip"
+        android:layout_marginEnd="10dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="839"
+                android:textSize="17sp"
+                android:paddingStart="10dip"
+                android:paddingEnd="10dip"
+                android:paddingTop="5dip" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE A PAYMENT"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:paddingEnd="15dip"
+        android:paddingStart="15dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:background="@drawable/orange_bg"
+        android:textStyle="bold"
+        android:layout_marginStart="5dip"
+        android:layout_marginEnd="5dip"/>
+
+
+</LinearLayout>
